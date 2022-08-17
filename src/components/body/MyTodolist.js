@@ -27,6 +27,8 @@ class MyTodolist extends Component{
         const newArr =[...this.state.todoItems] //copying the todoItems array into the newArr array.
         newArr.push({title:this.state.newItem, done:false}); 
         this.setState({todoItems:[...newArr], newItem: ''}) //how the state will be arranged or displayed
+
+     
     }
 
     taskIsDone = (index) => {
@@ -35,7 +37,9 @@ class MyTodolist extends Component{
         
         const data = [...this.state.todoItems]
         data[index] = {...data[index], done: true}
-        this.setState({ todoItems: data});
+        this.setState({ todoItems: data});   
+        
+     
     }
         
     render(){

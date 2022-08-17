@@ -1,13 +1,13 @@
 
 .footer{
     width: 100%;
-    background-color: rgba(110, 104, 104, 0.953);
-    padding: 10px;
+    margin-top: 200px;
+    background-color: rgba(133, 119, 119, 0.953);
+    padding: 20px;
   }
   
 .footer1{
     color: black; 
-    margin-top:20px;
     font-family:Georgia, 'Times New Roman', Times, serif;
   }
   .footer a{
