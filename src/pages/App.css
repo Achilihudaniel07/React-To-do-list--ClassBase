@@ -41,9 +41,12 @@
 
 .App button{
   padding: 10px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
   border-radius: 10px;
   background: #000;
-  border: 2px solid rgb(102, 91, 91);
+  border: 2px solid rgb(161, 33, 33);
   transition: o.3s;
   -webkit-transition: o.3s;
   -moz-transition: o.3s;
@@ -51,7 +54,6 @@
   -o-transition: o.3s;
   color: whitesmoke;
   cursor: pointer;
-  border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -62,7 +64,6 @@
 .App button:hover{
   background:rgb(187, 214, 224);
   color: black;
-  border: 1px solid #ef0b0b;
 }
 
 .App p{
