@@ -11,8 +11,8 @@ class MyTodolist extends Component{
         this.state ={
             newItem:'',
             todoItems:[ // it is an array of object
-                {title:'wash', done:false},
-                {title:'cook',  done:false},    // We change this to an object inorder to keep track of when it is done and also the title, Object allows you to have multiple items inside.       
+                {title:'Morning Devotion', done:false},
+                {title:'Brush my teeth',  done:false},    // We change this to an object inorder to keep track of when it is done and also the title, Object allows you to have multiple items inside.       
             ]
         }
     }
@@ -43,19 +43,21 @@ class MyTodolist extends Component{
         return(
             <div> 
                 <h1>MY TODO LIST</h1>
+                <i> <p>Click on task when done </p></i>
+                    
                 <form onSubmit={this.addItemToList}>
                     <input value={this.state.newItem} onChange={(event) =>this.setState({newItem: event.target.value})} type="text" placeholder="Add task"/>
-                    <button type="submit">Add task</button>
+                    <button type="submit">Enter</button>
                 </form>
 
-                <ul>
+                <ol>
                     {   this.state.todoItems?.map((item, index) => (
                             <li
                                 key={index.toString()} onClick={() => this.taskIsDone(index)} style={{textDecoration: item.done ? 'line-through' : '', cursor: 'pointer'}}>{item.title}
                             </li>
                         ))
                     }
-                </ul>
+                </ol>
             </div>
         )
     }
