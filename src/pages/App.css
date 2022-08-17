@@ -1,9 +1,11 @@
+*{
+  box-sizing: content-box;
+}
 .App {
-  text-align: center;
   margin-top: 20px;
   width: 40%;
   margin: 0 auto;
-  background-color: rgb(81, 81, 198);
+  background-color: rgb(49, 49, 60);
   padding: 50px;
   border-radius: 20px;
   color: white;
@@ -12,7 +14,7 @@
 }
 
 .App h1{
-  color: rgb(165, 211, 48);
+  color: rgb(157, 237, 108);
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size:2rem;
   text-shadow: 
@@ -29,6 +31,7 @@
 }
 
 .App input{
+  width:200px;
   padding: 5px;
   font-size: 1rem;
 }
@@ -41,7 +44,14 @@
   
 }
 
-
 .App p{
   opacity: 20%;
+  text-align: center;
+}
+
+.App ol,li{
+  text-align: left;
+  margin-bottom: 10px;
+  width: 100%;
+  word-wrap: break-word;
 }
