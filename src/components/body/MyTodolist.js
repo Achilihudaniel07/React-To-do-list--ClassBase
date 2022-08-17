@@ -47,7 +47,7 @@ class MyTodolist extends Component{
         return(
             <div> 
                 <h1>MY&nbsp;TO-DO&nbsp;LIST</h1>
-                <i> <p>Click on task when done </p></i>
+                <i> <p>(Click on task when done) </p></i>
                     
                 <form onSubmit={this.addItemToList}>
                     <input value={this.state.newItem} onChange={(event) =>this.setState({newItem: event.target.value})} type="text" placeholder="Add task"/>

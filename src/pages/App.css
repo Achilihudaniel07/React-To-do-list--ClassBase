@@ -1,9 +1,11 @@
+
 *{
   box-sizing: content-box;
 }
+
 .App {
   margin-top: 20px;
-  width: 40%;
+  width: 30%;
   margin: 0 auto;
   background-color: rgb(74, 74, 107);
   padding: 50px;
