@@ -1,0 +1,17 @@
+
+.footer{
+    width: 100%;
+    background-color: rgba(110, 104, 104, 0.953);
+    padding: 10px;
+  }
+  
+.footer1{
+    color: black; 
+    margin-top:20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  .footer a{
+    color: whitesmoke;
+    text-decoration: none;
+  }
+  

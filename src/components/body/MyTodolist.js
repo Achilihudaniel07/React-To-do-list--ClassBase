@@ -42,7 +42,7 @@ class MyTodolist extends Component{
 
         return(
             <div> 
-                <h1>MY TODO LIST</h1>
+                <h1>MY&nbsp;TO-DO&nbsp;LIST</h1>
                 <i> <p>Click on task when done </p></i>
                     
                 <form onSubmit={this.addItemToList}>
